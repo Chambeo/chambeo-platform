@@ -1,0 +1,5 @@
+@import '../../utils/sharedStyles.css';
+
+.spacer {
+    flex: 1 1 auto;
+  }

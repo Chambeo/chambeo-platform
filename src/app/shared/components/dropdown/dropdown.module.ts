@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DropdownComponent } from './dropdown.component';
+import { MaterialModule } from 'src/app/core/material/material.module';
 
 
 
@@ -9,7 +10,9 @@ import { DropdownComponent } from './dropdown.component';
     DropdownComponent
   ],
   imports: [
-    CommonModule
-  ]
+    CommonModule,
+    MaterialModule
+  ],
+  exports: [DropdownComponent]
 })
 export class DropdownModule { }

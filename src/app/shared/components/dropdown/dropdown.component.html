@@ -1,0 +1,17 @@
+
+<ng-container *ngIf="sessionState";>
+    <button mat-button [matMenuTriggerFor]="beforeMenu">User</button>
+    <mat-menu #beforeMenu="matMenu" xPosition="before">
+        <button mat-menu-item>Perfil</button>
+        <button mat-menu-item>Ajustes</button>
+        <button mat-menu-item>Cerrar sesión</button>
+    </mat-menu>
+</ng-container>
+
+<ng-container *ngIf="!sessionState";>
+    <button mat-button [matMenuTriggerFor]="beforeMenu">¿Tienes Cuenta?</button>
+    <mat-menu #beforeMenu="matMenu" xPosition="before">
+        <button mat-menu-item>Iniciar Sesión</button>
+        <button mat-menu-item>Registrarse</button>
+    </mat-menu>
+</ng-container>

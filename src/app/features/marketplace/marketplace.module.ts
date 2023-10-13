@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MarketplaceComponent } from './marketplace/marketplace.component';
+import { MarketplaceComponent } from './marketplace.component';
+import { HeaderModule } from 'src/app/shared/components/header/header.module';
 
 
 
@@ -9,7 +10,9 @@ import { MarketplaceComponent } from './marketplace/marketplace.component';
     MarketplaceComponent
   ],
   imports: [
-    CommonModule
-  ]
+    CommonModule,
+    HeaderModule
+  ],
+  exports: [MarketplaceComponent]
 })
 export class MarketplaceModule { }

@@ -1,0 +1,24 @@
+html:root {
+    /* Hex Colors */
+    --blue--Chambeo-1: #040FD9;
+    --blue--Chambeo-2: #040DBF;
+    --blue--Chambeo-3: #021E73;
+    --blue--Chambeo-4: #0339A6;
+    --blue--Chambeo-5: #4E8AD9;
+}
+
+.bg-blue-1 {
+    background-color: #040FD9;
+}
+.bg-blue-2 {
+    background-color: #040DBF;
+}
+.bg-blue-3 {
+    background-color: #021E73;
+}
+.bg-blue-4 {
+    background-color: #0339A6;
+}
+.bg-blue-5 {
+    background-color: #4E8AD9;
+}
