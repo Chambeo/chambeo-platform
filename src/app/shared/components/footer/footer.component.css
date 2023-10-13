@@ -1,0 +1,13 @@
+@import url(../../utils/sharedStyles.css);
+
+.footer_container {
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.copyright {
+    text-wrap: wrap;
+    padding: 2rem 0;
+}
