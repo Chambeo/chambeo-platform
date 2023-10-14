@@ -7,7 +7,6 @@ import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
 import { HeaderModule } from './shared/components/header/header.module';
 import { FooterModule } from './shared/components/footer/footer.module';
-import { MarketplaceModule } from './features/marketplace/marketplace.module';
 import { SidebarModule } from './shared/components/sidebar/sidebar.module';
 
 @NgModule({
@@ -21,7 +20,6 @@ import { SidebarModule } from './shared/components/sidebar/sidebar.module';
     RouterModule,
     HeaderModule,
     FooterModule,
-    MarketplaceModule,
     SidebarModule
   ],
   providers: [],
