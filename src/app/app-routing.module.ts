@@ -3,6 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { MarketplaceComponent } from './features/marketplace/marketplace.component';
 import { ProfileComponent } from './features/profile/profile.component';
 import { TaskComponent } from './features/task/task.component';
+import { CategoriesComponent } from './features/categories/categories.component';
+import { PublicationComponent } from './shared/components/publication/publication.component';
 
 const routes: Routes = [ 
   { path: '', pathMatch: 'full', redirectTo: 'marketplace' },
@@ -17,6 +19,9 @@ const routes: Routes = [
   //   { path: '', redirectTo: 'content', pathMatch: 'full'}
   // ]},
   { path: 'profile', component: ProfileComponent },
+  { path: 'categories', component: CategoriesComponent },
+  { path: 'publication', component: PublicationComponent },
+  { path: 'contract', component: ContractComponent },
   { path: '**',  pathMatch: 'full', redirectTo: 'marketplace' }
 ];
 
