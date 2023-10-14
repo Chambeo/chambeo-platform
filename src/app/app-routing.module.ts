@@ -6,16 +6,8 @@ import { TaskComponent } from './features/task/task.component';
 
 const routes: Routes = [ 
   { path: '', pathMatch: 'full', redirectTo: 'marketplace' },
-  // { path: 'marketplace', component:  MarketplaceComponent, children: [
-  //   { path: 'content', component: MarketplaceContentComponent },
-  //   { path: '', redirectTo: 'content', pathMatch: 'full'}
-  // ]},
   { path: 'marketplace', component:  MarketplaceComponent },
   { path: 'marketplace/task', component:  TaskComponent },
-  // , children: [
-  //   { path: 'content', component: MarketplaceContentComponent },
-  //   { path: '', redirectTo: 'content', pathMatch: 'full'}
-  // ]},
   { path: 'profile', component: ProfileComponent },
   { path: '**',  pathMatch: 'full', redirectTo: 'marketplace' }
 ];
