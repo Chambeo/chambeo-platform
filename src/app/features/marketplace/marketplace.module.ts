@@ -1,17 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MarketplaceComponent } from './marketplace.component';
-import { SidebarModule } from 'src/app/shared/components/sidebar/sidebar.module';
-import { PublicationModule } from './components/publication/publication.module';
+import { PublicationModule } from 'src/app/shared/components/publication/publication.module';
+import { MaterialModule } from 'src/app/core/material/material.module';
 
 @NgModule({
   declarations: [
-    MarketplaceComponent,
+    MarketplaceComponent
   ],
   imports: [
     CommonModule,
-    SidebarModule,
-    PublicationModule
+    PublicationModule,
+    MaterialModule
   ],
   exports: [MarketplaceComponent]
 })

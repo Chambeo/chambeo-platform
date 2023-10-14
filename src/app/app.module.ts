@@ -8,6 +8,7 @@ import { RouterModule } from '@angular/router';
 import { HeaderModule } from './shared/components/header/header.module';
 import { FooterModule } from './shared/components/footer/footer.module';
 import { SidebarModule } from './shared/components/sidebar/sidebar.module';
+import { MarketplaceModule } from './features/marketplace/marketplace.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SidebarModule } from './shared/components/sidebar/sidebar.module';
     RouterModule,
     HeaderModule,
     FooterModule,
-    SidebarModule
+    SidebarModule,
+    MarketplaceModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

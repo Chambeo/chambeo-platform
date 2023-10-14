@@ -1,0 +1,53 @@
+.chip-label-set {
+    font-size: 0.5rem;
+}
+.chip-label {
+}
+
+
+.cd-demo-chip-list {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.chip--interactive {
+    cursor: pointer;
+    transition: background, box-shadow, transform;
+    transition-duration: 0.2s;
+}
+  
+.chip--interactive:hover {
+    background-color: hsla(230, 13%, 9%, 0.2);
+}
+
+.chip--interactive:active {
+    transform: translateY(1px);
+}
+  
+.chip--interactive:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 2px hsl(0, 0%, 100%), 0 0 0 4px hsla(230, 13%, 9%, 0.95);
+}
+
+.chip {
+    /* reset */
+    border: 0;
+    color: inherit;
+    line-height: 1;
+    -webkit-appearance: none;
+            appearance: none;
+  
+    display: inline-flex;
+    align-items: center;
+    border-radius: 50em;
+    padding: 0.25rem;
+    background-color: hsla(230, 13%, 9%, 0.1);
+  
+    font-size: 0.9375rem;
+}
+
+.chip__label {
+    padding: 0 0.5rem;
+  }

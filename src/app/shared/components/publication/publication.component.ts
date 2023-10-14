@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-publication',
@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./publication.component.scss']
 })
 export class PublicationComponent {
-
+  @Input() title!: string
+  @Input() description!: string
 }
