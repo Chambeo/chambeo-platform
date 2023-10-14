@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MarketplaceComponent } from './marketplace.component';
+import { SidebarModule } from 'src/app/shared/components/sidebar/sidebar.module';
+
+
 
 @NgModule({
   declarations: [
@@ -8,6 +11,7 @@ import { MarketplaceComponent } from './marketplace.component';
   ],
   imports: [
     CommonModule,
+    SidebarModule
   ],
   exports: [MarketplaceComponent]
 })

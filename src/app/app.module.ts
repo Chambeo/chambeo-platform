@@ -7,10 +7,11 @@ import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
 import { HeaderModule } from './shared/components/header/header.module';
 import { FooterModule } from './shared/components/footer/footer.module';
+import { MarketplaceModule } from './features/marketplace/marketplace.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
@@ -18,7 +19,8 @@ import { FooterModule } from './shared/components/footer/footer.module';
     AppRoutingModule,
     RouterModule,
     HeaderModule,
-    FooterModule
+    FooterModule,
+    MarketplaceModule
   ],
   providers: [],
   bootstrap: [AppComponent]

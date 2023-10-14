@@ -1,0 +1,20 @@
+@import url(../../utils/sharedStyles.css);
+
+.container {
+    min-height: 50rem;
+    height: max-content;
+}
+.sidenav_container {
+    min-height: 50rem;
+    height: max-content;
+    width: 18rem;
+    padding: 1rem;
+}
+
+.chips_align {
+    display: flex;
+    justify-content: center;
+}
+.divider {
+    margin: 1rem 0;
+}

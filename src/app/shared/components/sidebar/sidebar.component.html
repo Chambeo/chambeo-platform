@@ -1,1 +1,22 @@
-<p>sidebar works!</p>
+<!-- <mat-sidenav-container class="example-container" style="min-height: 50rem; height: max-content;">
+    <mat-sidenav mode="side" opened class="bg-blue-1" style="height: 100%;">Sidenav content</mat-sidenav>
+</mat-sidenav-container> -->
+
+<mat-sidenav-container class="container">
+    <mat-sidenav mode="side" opened class="sidenav_container bg-gray">
+        <app-chips-avatar class="chips_align"></app-chips-avatar>
+        <mat-divider class="divider"></mat-divider>
+        <button mat-menu-item>Perfil</button>
+        <button mat-menu-item>Categorías</button>
+        <button mat-menu-item>Publicaciones</button>
+        <button mat-menu-item>Contratos</button>
+        <button mat-menu-item>Guardados</button>
+        <mat-divider class="divider"></mat-divider>
+        <button mat-menu-item>Configuración</button>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <div class="container">
+            
+        </div>
+    </mat-sidenav-content>
+</mat-sidenav-container>
