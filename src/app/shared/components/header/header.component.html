@@ -1,5 +1,7 @@
 <mat-toolbar class="bg-blue-5 container" style="color: white;">
-    <span>Chambeo</span>
+    <div [routerLink]="['marketplace']" class="header__logo">
+        <span>Chambeo</span>
+    </div>
     <span class="spacer"></span>
     <app-dropdown [sessionState]="false"></app-dropdown>
 </mat-toolbar>
