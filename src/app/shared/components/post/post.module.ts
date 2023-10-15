@@ -1,19 +1,19 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PublicationComponent } from './publication.component';
+import { PostComponent } from './post.component';
 import {MatCardModule} from '@angular/material/card';
 import { ChipsLabelsModule } from '../chips-labels/chips-labels.module';
 
 
 @NgModule({
   declarations: [
-    PublicationComponent
+    PostComponent
   ],
   imports: [
     CommonModule,
     MatCardModule,
     ChipsLabelsModule
   ],
-  exports: [PublicationComponent]
+  exports: [PostComponent]
 })
-export class PublicationModule { }
+export class PostModule { }

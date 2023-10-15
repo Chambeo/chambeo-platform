@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MarketplaceComponent } from './marketplace.component';
-import { PublicationModule } from 'src/app/shared/components/publication/publication.module';
+import { PostModule } from 'src/app/shared/components/post/post.module';
 import { MaterialModule } from 'src/app/core/material/material.module';
 
 @NgModule({
@@ -10,7 +10,7 @@ import { MaterialModule } from 'src/app/core/material/material.module';
   ],
   imports: [
     CommonModule,
-    PublicationModule,
+    PostModule,
     MaterialModule
   ],
   exports: [MarketplaceComponent]

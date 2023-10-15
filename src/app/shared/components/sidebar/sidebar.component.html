@@ -7,11 +7,11 @@
         <app-chips-avatar class="chips_align"></app-chips-avatar>
         <mat-divider class="divider"></mat-divider>
         <button mat-menu-item [routerLink]="['profile']">Perfil</button>
-        <button mat-menu-item>Categorías</button>
-        <button mat-menu-item>Publicaciones</button>
-        <button mat-menu-item>Contratos</button>
-        <button mat-menu-item>Guardados</button>
+        <button mat-menu-item [routerLink]="['categories']">Categorías</button>
+        <button mat-menu-item [routerLink]="['post']">Mis Publicaciones</button>
+        <button mat-menu-item [routerLink]="['contract']">Contratos</button>
+        <button mat-menu-item [routerLink]="['saved-post']">Guardados</button>
         <mat-divider class="divider"></mat-divider>
-        <button mat-menu-item>Configuración</button>
+        <button mat-menu-item  [routerLink]="['settings']">Configuración</button>
     </mat-sidenav>
 </mat-sidenav-container>

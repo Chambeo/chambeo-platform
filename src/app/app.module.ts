@@ -9,10 +9,14 @@ import { HeaderModule } from './shared/components/header/header.module';
 import { FooterModule } from './shared/components/footer/footer.module';
 import { SidebarModule } from './shared/components/sidebar/sidebar.module';
 import { MarketplaceModule } from './features/marketplace/marketplace.module';
+import { ContractComponent } from './features/contract/contract.component';
+import { SavePostComponent } from './features/save-post/save-post.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    ContractComponent,
+    SavePostComponent,
   ],
   imports: [
     BrowserModule,
